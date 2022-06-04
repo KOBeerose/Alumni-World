@@ -13,7 +13,6 @@ const alumaniIcon = new Icon({
 
 function App() {
   const [ activeAlumani, setActiveAlumani ] = useState( null );
-  const items = ['word1', 'word2', 'word3'];
   return (
 
       <MapContainer 
